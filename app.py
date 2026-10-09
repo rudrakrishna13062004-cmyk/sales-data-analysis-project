@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 
 BASE_DIR = Path(__file__).resolve().parent
-CSV_PATH = BASE_DIR / "data" / "sales.csv"
+CSV_PATH = BASE_DIR / "sales.csv"
 DB_PATH = BASE_DIR / "sales.db"
 
 st.set_page_config(page_title="Retail Sales Dashboard", page_icon="📊", layout="wide")
